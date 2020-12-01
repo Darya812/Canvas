@@ -2,3 +2,27 @@ body {
     margin: 0;
     overflow: hidden;
 }
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(112, 112, 112, 0.2);
+      
+    font-size: 20px;
+}
+
+label {
+    color: rgb(2, 2, 2);
+    
+}
+
+.buttons button,
+.buttons input {
+    margin: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(2, 2, 2);
+   
+}

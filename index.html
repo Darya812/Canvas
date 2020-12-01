@@ -7,6 +7,17 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+    <div class="buttons">
+        <button id="clear">Clear</button>
+        <button id="magic-color">Magic Color</button>
+        <label>Size<input id="size" type="range" 
+                        min="5"
+            max="100"
+            value="15"
+            data-sizing="px"></label>
+        <label>Color<input id="color" type="color" value="#193549" ></label>
+        
+    </div>
     <canvas id='canvas' width="800" height="800"></canvas>
     <script src="action.js"></script> 
 </body>
